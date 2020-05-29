@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="216pt" version="1.1" viewBox="0 0 36 216" width="36pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+*{stroke-linecap:butt;stroke-linejoin:round;}
+  </style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 216 
+L 36 216 
+L 36 0 
+L 0 0 
+z
+" style="fill:none;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 10.8 205.2 
+L 25.2 205.2 
+L 25.2 10.8 
+L 10.8 10.8 
+z
+" style="fill:none;"/>
+   </g>
+   <image height="194" id="image3ce2121a1c" transform="scale(1 -1)translate(0 -194)" width="14" x="11" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAADCCAYAAAB5YvMeAAAABHNCSVQICAgIfAhkiAAAARNJREFUaIHtmktuwjAURZ/NTSm0qsoi2AFr6bLZAAOGTFBFWyo+wTEreBkY6aIrvTM/OrIV23GUVHbLag3kFuk5IlbrL25RSMT3dsEtComw3LQ4lMbYPjnT/YRbFBLxuYknxwNvuyu3KCQCx55bFBKRf8/copCIdIll5QErhVsUElF//rhFIRHlcOAWhUQkdNyikIj88c4tComwId6QPeK0GgFpPuMWhURYFxuyB2wYuEUhEZbbXKExPjA50xduUUiE1TjKPWC3G7coJMZpNQIM8YHdA3aKL4EeqMd/blFIRJrEsvKIDXkEWErcopAYkzMCLMfkeMBK3MpDbAA2e+UWhUTUDtyikIjUx63cA9bHLyged+5ZMaZM7w+LAAAAAElFTkSuQmCC" y="-11"/>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+  </g>
+ </g>
+</svg>

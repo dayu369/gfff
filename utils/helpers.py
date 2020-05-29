@@ -1,11 +1,14 @@
 class TrimMFCCs():
     """Trims an MFCC sequence by removing the first coefficient."""
-    def __call__(self, sequence):
+    def __call__(self, batch):
         # Shape: B x D x Tmax
-        return sequence[:, 1:, :]
+        return batch[:, 1:, :]
 
 class Standardize():
     """Frame-wise MFCC standardization."""
-    def __call__(self, sequence):
+    def __call__(self, batch):
         # Shape: B x D x Tmax
-        return (sequence - sequence.mean(axis=1)) / sequence.std(axis=1)
+        for sequence in batch:
+            sequence -= sequence.mean(axis=0)
+            sequence /= sequence.std(axis=0)
+        return batch
